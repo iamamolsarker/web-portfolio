@@ -1,0 +1,36 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 36px;
+    color: #165425;
+    line-height: 25px;
+    vertical-align: middle;
+}
+.highlighted{
+    color:#449B23;
+}
+h3{
+    color: #165425;
+    font-size: 22px;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.half-width{
+    width: 45%;
+    margin: 0px 30px;
+    float: left;
+}
+.middle{
+    height: 300px;
+    margin-top: 70px;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 75%;
+}
