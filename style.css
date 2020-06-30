@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 36px;
@@ -7,30 +8,57 @@ h1{
     line-height: 25px;
     vertical-align: middle;
 }
-.highlighted{
-    color:#449B23;
+h2{
+    color: #165425;
+    font-size: 32px;
 }
 h3{
     color: #165425;
     font-size: 22px;
     font-weight: 600;
 }
+.highlighted{
+    color:#449B23;
+}
 p{
     color: black;
     font-size: 18px;
     font-weight: 400;
+    line-height: 29px;
 }
 .half-width{
-    width: 45%;
-    margin: 0px 30px;
+    width: 40%;
+    margin: 0px 20px;
     float: left;
 }
 .middle{
     height: 300px;
-    margin-top: 70px;
+    margin: 70px 0px 0px 100px;
 }
 img{
     display: block;
-    margin: auto;
+    margin: 30px auto 0px;
     width: 75%;
+}
+.container{
+    height: 460px;
+    margin-bottom: 40px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.btn-hire{
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(75deg, #165425, #449B23);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-hire:hover{
+    background-image: linear-gradient(105deg, #449B23, #165425);
+    transition-delay: 2s;
 }
